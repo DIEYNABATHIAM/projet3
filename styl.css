@@ -1,0 +1,41 @@
+
+.travail i{
+  align-items: center;
+  color: rgb(255, 89, 0);
+}
+.back{
+    position: relative;
+    width:110% ;
+    height: 220px;
+    flex-grow: 1;
+    top: 180px;
+    background-color: rgb(255, 89, 0);  
+}
+.back img{
+  margin: 1rem;
+  flex-direction: column;
+justify-content: center;
+left: 400px;
+
+}
+
+.img1{
+position: relative;
+top: -160px;
+left: 80px;
+        }
+        .img4{
+            position: relative;
+            top: -170px;
+            margin-top: 1rem;
+            left: 80px;
+        }
+  @media screen and (max-width: 375px){
+    .back {
+           width: 400px;
+    }
+
+.titre{
+  align-items: center;
+}
+  }
